@@ -12,10 +12,10 @@ describe('slideDancer', function() {
     expect(slideDancer.$node).to.be.an.instanceof(jQuery);
   });
 
-  it('should have a step function that makes its node blink', function() {
-    sinon.spy(slideDancer.$node, 'toggle');
+  it('should have a step function that makes its node move randomly around screen', function() {
+    sinon.spy(slideDancer.$node, 'css');
     slideDancer.step();
-    expect(slideDancer.$node.toggle.called).to.be.true;
+    expect(slideDancer.$node.css.called).to.be.true;
   });
 
   describe('dance', function() {
@@ -32,3 +32,7 @@ describe('slideDancer', function() {
     });
   });
 });
+
+
+
+
