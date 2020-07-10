@@ -4,15 +4,32 @@ body, html{
 body{
   margin: 0px;
   background-color:#555;
-  background-image: url(https://cutewallpaper.org/21/disco-backgrounds/Disco-Dance-Floor-Background-Loop-Stock-Footage-Video-100-Royalty-free-1379686-Shutterstock.jpg);
+  background-image: url(rainbowroad.jpg);
+  background-size: cover;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title{
   padding:5px 12px;
   float:right;
+}
+ .addDancerButton{
+  /* padding:5px 12px;
+  float:right; */
+ /*  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #FFFFFF;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.2s; */
 }
 .topbar{
   height:32px;
@@ -22,7 +39,23 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  border:30px solid red;
+  border-radius:30px;
   position:absolute;
+}
+
+.blinkyDancer {
+  background-image: url(babymario.png);
+  height: 70px;
+  width: 50px;
+  border:0px;
+  position:absolute;
+  }
+
+.slideDancer {
+background-image: url(toad.png);
+height: 100px;
+width: 50px;
+border:0px;
+position:absolute;
 }
