@@ -15,7 +15,7 @@ body, a:link, a:visited, a:active{
   padding:5px 12px;
   float:right;
 }
- .addDancerButton{
+ .addDancerButton.lineUpButton{
   /* padding:5px 12px;
   float:right; */
  /*  display: inline-block;
